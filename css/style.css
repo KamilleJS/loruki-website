@@ -82,8 +82,15 @@ img {
 }
 
 .showcase .grid {
+    overflow: visible;
     grid-template-columns: 55% 45%;
     gap: 30px;
+}
+
+.showcase-form {
+    position: relative;
+    top: 60px;
+    height: 350px;
 }
 
 /*utilities*/
@@ -96,6 +103,7 @@ img {
 
 .card {
     background-color: #fff;
+    color: #333;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
