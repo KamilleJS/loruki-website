@@ -273,6 +273,14 @@ code, pre {
         grid-column: 1;
         grid-row: 1;
     }
+
+    .features-head, .features-sub-head, .docs-head {
+        text-align: center;
+    }
+
+    .features-head img, .features-sub-head img, .docs-head img {
+        justify-self: center;
+    }
 }
 
 /* Mobile */
